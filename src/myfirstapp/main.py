@@ -1,4 +1,5 @@
 import tkinter as tk
+import matplotlib.pyplot as plt
 
 def on_button_click():
     label.config(text="Button Clicked!")
