@@ -4,6 +4,8 @@ def on_button_click():
     label.config(text="Button Clicked!")
 
 root = tk.Tk()
+root.geometry("300x200")
+root.resizable(False, False)
 root.title("My First App")
 
 label = tk.Label(root, text="Hello, Tkinter!")
