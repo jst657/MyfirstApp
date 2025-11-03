@@ -1,0 +1,28 @@
+@startuml Class Diagram
+
+
+Class "User" {
+  +int personalnumber
+  +String first_name
+  +String last_name
+}
+
+Class "Admin" {
+  +String password
+  +login()
+  +add_sorter_type()
+}
+
+Class "Service Technician" {
+}
+
+Class "Measurement" {
+  +String measurement_type
+  +datetime measurement_date
+  +datetime calibration_date_LMP
+  +measure_dynamic()
+  +measure_static()
+  +print_report()
+}
+
+@enduml
